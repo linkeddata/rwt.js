@@ -33,6 +33,5 @@ module.exports = {
             common.matchtest(test, this.response.headers['access-control-allow-methods'], /PATCH(,|$)/);
             test.done();
         },
-
     },
 };
